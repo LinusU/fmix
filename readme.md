@@ -11,7 +11,7 @@ npm install --save fmix
 ## Usage
 
 ```js
-const fmix = require('fmix')
+import fmix from 'fmix'
 
 console.log(fmix(0xdeadbeef))
 //=> 233162409
@@ -19,9 +19,10 @@ console.log(fmix(0xdeadbeef))
 
 ## API
 
-### fmix(input: number) => number
+### `fmix(input)`
 
-Returns the finalization mix value of the number `input`.
+- `input` (`number`, required)
+- returns `number` - finalization mix value of the number `input`
 
 ## See also
 
